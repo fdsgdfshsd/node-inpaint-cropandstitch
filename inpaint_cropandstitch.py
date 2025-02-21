@@ -15,6 +15,7 @@ def rescale(samples, width, height, algorithm: str):
     samples = F.to_tensor(samples_pil).unsqueeze(0)
     return samples
 
+
 class InpaintCrop:
     """
     ComfyUI-InpaintCropAndStitch
